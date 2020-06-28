@@ -116,12 +116,12 @@ int16_t idx = 0;
 int16_t prev_idx = 0;
 uint8_t curr_x = 0;
 uint8_t curr_y = 0;
-const uint8_t speed = 32;
 int16_t dx = 0;
 int16_t dy = 0;
 int8_t direction = 1;
 
 void next_line() {
+    const uint8_t speed = 32;
     int8_t next_direction = direction;
     idx += direction;
     if(idx < 0) {
