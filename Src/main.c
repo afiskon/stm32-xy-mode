@@ -117,7 +117,6 @@ int16_t prev_idx = 0;
 uint8_t curr_x = 0;
 uint8_t curr_y = 0;
 const uint8_t speed = 32;
-const int16_t dmult = 8;
 int16_t dx = 0;
 int16_t dy = 0;
 int8_t direction = 1;
